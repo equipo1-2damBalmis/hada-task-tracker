@@ -1,7 +1,8 @@
 ﻿namespace TaskTracker
 {
-public partial class Program
- {
+public partial class GestorTareas
+{
+ List<TaskItem> ListaTareas = new List<TaskItem>();
     public static void MostrarMenu()
     {
         int opcion;
@@ -20,27 +21,36 @@ public partial class Program
 
             opcion = int.Parse(Console.ReadLine());
 
-            opcion switch
+           switch (opcion)
             {
-                1 => AñadirTarea(),
-                2 => ListarTareas(),
-                3 => MarcarTareaCompletada(),
-                4 => GuardarCargarTareas(),
-                5 => Console.WriteLine("Saliendo..."),
-                 => Console.WriteLine("Opción inválida. Intente nuevamente.")
-            };
+                case 1:
+                  //  AñadirTarea();
+                    break;
+                case 2:
+                  //  ListarTareas();
+                    break;
+                case 3:
+                  //  MarcarTareaCompletada();
+                    break;
+                case 4:
+                  //  GuardarCargarTareas();
+                    break;
+                case 5:
+                    Console.WriteLine("Saliendo...");
+                    break;
+                default:
+                    Console.WriteLine("Opción inválida. Intente nuevamente.");
+                    break;
+            }
         } while (opcion != 5);
 
 
 
     }
 
-    public List<TaskItem> AñadirTarea()
+    public void AñadirTarea()
     {
-        List<TaskItem> ListaTareas = new List<TaskItem>();
-
-
-
+       
         Console.Write("Introduce el título de la tarea: ");
         string titulo = Console.ReadLine();
 
@@ -57,7 +67,7 @@ public partial class Program
         ListaTareas.Add(nuevaTarea);
 
         Console.WriteLine("Tarea añadida exitosamente.");
-        return ListaTareas;
+        
     }
 }
 }
