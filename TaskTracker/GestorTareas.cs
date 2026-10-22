@@ -54,6 +54,31 @@ namespace TaskTracker
         }
     
     //Buscar por fecha
+    Console.WriteLine("\n--- Buscar tareas por rango de fechas ---");
+Console.Write("Introduce la fecha de inicio (dd/MM/yyyy): ");
+if (DateTime.TryParse(Console.ReadLine(), out DateTime fechaInicio))
+{
+    Console.Write("Introduce la fecha de fin (dd/MM/yyyy): ");
+    if (DateTime.TryParse(Console.ReadLine(), out DateTime fechaFin))
+    {
+        // Llamamos al método que tienes en la clase Filtra
+        var tareasFiltradas = Filtra.PorRangoFechas(listaTareas, fechaInicio, fechaFin);
+
+        Console.WriteLine($"\nTareas encontradas entre {fechaInicio.ToShortDateString()} y {fechaFin.ToShortDateString()}:");
+        foreach (var tarea in tareasFiltradas)
+        {
+            Console.WriteLine($"- [{(tarea.Completado ? "X" : " ")}] {tarea.Titulo} ({tarea.FechaCreacion.ToShortDateString()})");
+        }
+    }
+    else
+    {
+        Console.WriteLine("Fecha de fin no válida.");
+    }
+}
+else
+{
+    Console.WriteLine("Fecha de inicio no válida.");
+}
     //Guardar en JSON
     
 }
