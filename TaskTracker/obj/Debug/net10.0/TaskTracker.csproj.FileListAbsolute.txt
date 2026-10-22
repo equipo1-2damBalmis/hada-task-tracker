@@ -1,0 +1,15 @@
+E:\2º DAM-B\Proyecto\TaskTracker\hada-task-tracker\TaskTracker\obj\Debug\net10.0\TaskTracker.GeneratedMSBuildEditorConfig.editorconfig
+E:\2º DAM-B\Proyecto\TaskTracker\hada-task-tracker\TaskTracker\obj\Debug\net10.0\TaskTracker.AssemblyInfoInputs.cache
+E:\2º DAM-B\Proyecto\TaskTracker\hada-task-tracker\TaskTracker\obj\Debug\net10.0\TaskTracker.AssemblyInfo.cs
+E:\2º DAM-B\Proyecto\TaskTracker\hada-task-tracker\TaskTracker\obj\Debug\net10.0\TaskTracker.csproj.CoreCompileInputs.cache
+E:\2º DAM-B\Proyecto\TaskTracker\hada-task-tracker\TaskTracker\obj\Debug\net10.0\TaskTracker.sourcelink.json
+E:\2º DAM-B\Proyecto\TaskTracker\hada-task-tracker\TaskTracker\bin\Debug\net10.0\TaskTracker.exe
+E:\2º DAM-B\Proyecto\TaskTracker\hada-task-tracker\TaskTracker\bin\Debug\net10.0\TaskTracker.deps.json
+E:\2º DAM-B\Proyecto\TaskTracker\hada-task-tracker\TaskTracker\bin\Debug\net10.0\TaskTracker.runtimeconfig.json
+E:\2º DAM-B\Proyecto\TaskTracker\hada-task-tracker\TaskTracker\bin\Debug\net10.0\TaskTracker.dll
+E:\2º DAM-B\Proyecto\TaskTracker\hada-task-tracker\TaskTracker\bin\Debug\net10.0\TaskTracker.pdb
+E:\2º DAM-B\Proyecto\TaskTracker\hada-task-tracker\TaskTracker\obj\Debug\net10.0\TaskTracker.dll
+E:\2º DAM-B\Proyecto\TaskTracker\hada-task-tracker\TaskTracker\obj\Debug\net10.0\refint\TaskTracker.dll
+E:\2º DAM-B\Proyecto\TaskTracker\hada-task-tracker\TaskTracker\obj\Debug\net10.0\TaskTracker.pdb
+E:\2º DAM-B\Proyecto\TaskTracker\hada-task-tracker\TaskTracker\obj\Debug\net10.0\TaskTracker.genruntimeconfig.cache
+E:\2º DAM-B\Proyecto\TaskTracker\hada-task-tracker\TaskTracker\obj\Debug\net10.0\ref\TaskTracker.dll

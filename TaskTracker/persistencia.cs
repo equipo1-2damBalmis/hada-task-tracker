@@ -1,5 +1,6 @@
 using System.Text.Json;
 
+namespace TaskTracker;
 public static class Persistencia
 {
     private const string Archivo = "tareas.json";
